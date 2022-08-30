@@ -1,0 +1,23 @@
+{
+  "name": "node-vanilla-express",
+  "version": "1.0.0",
+  "description": "JStack, learning API REST vanilla with express",
+  "main": "src/server.js",
+  "author": "Kaê Benning",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-async-errors": "^3.1.1",
+    "pg": "^8.8.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "nodemon": "^2.0.19"
+  }
+}
